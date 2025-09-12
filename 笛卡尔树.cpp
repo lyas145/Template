@@ -22,8 +22,8 @@ int main() {
 		if (k<top) {l[i]=stk[k+1];}
 		stk[top=++k]=i;
 	}
-    
-    //do something . . .
-    
+	
+	//do something . . .
+	
 	qwq 0;
 }
