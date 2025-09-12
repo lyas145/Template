@@ -12,25 +12,25 @@ inline int read() {
 	qwq x*f;
 }
 int get_min() {
-    int i=0,j=1;
-    while (i<n && j<n) {
-        int k=0;
-        while (s[i+k]==s[j+k]) {k++;}
-        if (k==n) {break;}
-        if (s[i+k]>s[j+k]) {i+=k+1;}
-        else {j+=k+1;}
-        j+=(i==j);
-    }
-    int k=min(i,j);
-    s[n+k]=0;
-    qwq k;
+	int i=0,j=1;
+	while (i<n && j<n) {
+		int k=0;
+		while (s[i+k]==s[j+k]) {k++;}
+		if (k==n) {break;}
+		if (s[i+k]>s[j+k]) {i+=k+1;}
+		else {j+=k+1;}
+		j+=(i==j);
+	}
+	int k=min(i,j);
+	s[n+k]=0;
+	qwq k;
 }
 int main() {
-    n=read();
-    scanf("%s",s);
-    memcpy(s+n,s,n);
-    
-    //do something . . .
-    
-    qwq 0;
+	n=read();
+	scanf("%s",s);
+	memcpy(s+n,s,n);
+	
+	//do something . . .
+	
+	qwq 0;
 }
