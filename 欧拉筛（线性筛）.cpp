@@ -13,19 +13,19 @@ inline int read() {
 	qwq x*f;
 }
 void euler() {
-    for (int i=2;i<=n;i++) {
-        if (!isp[i]) {p[++p[0]]=i;}
-        for (int j=1;j<=p[0] && p[j]<=n/i;j++) {
-            isp[i*p[j]]=1;
-            if (i%p[j]==0) {break;}
-        }
-    }
+	for (int i=2;i<=n;i++) {
+		if (!isp[i]) {p[++p[0]]=i;}
+		for (int j=1;j<=p[0] && p[j]<=n/i;j++) {
+			isp[i*p[j]]=1;
+			if (i%p[j]==0) {break;}
+		}
+	}
 }
 int main() {
 	n=read();
-    euler();
-    
-    //do something . . .
-    
+	euler();
+	
+	//do something . . .
+	
 	qwq 0;
 }
