@@ -75,6 +75,7 @@ int main() {
 	if (SPFA()) {puts("-1");qwq 0;}
 	for (int i=1;i<=n;i++) {
 		dijkstra(i);
+		//the real dis(i,j)=dis[j]-f[i]+f[j]
 		
 		//do something . . .
 		
