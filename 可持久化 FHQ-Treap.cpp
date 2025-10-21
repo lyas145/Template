@@ -1,4 +1,3 @@
-```cpp
 #include<bits/stdc++.h>
 #define qwq return
 #define F first
@@ -108,22 +107,8 @@ int get_kth(int x,int k) {
 	qwq get_kth(tr[x].r,k);
 }
 int main() {
-	insert(0,-2147483647);
-	insert(0,2147483647);
-	//cout<<">>";for (int i=1;i<=tr[rt[0]].siz;i++) {printf("%d ",get_kth(rt[0],i));}puts("");
-	n=read();
-	while (n--) {
-		int v=read(),op=read(),x=read();
-		m++;
-		if (op==1) {insert(v,x);}
-		else if (op==2) {del(v,x);}
-		else if (op==3) {printf("%d\n",get_rk(rt[v],x)-1);}
-		else if (op==4) {printf("%d\n",get_kth(rt[v],x+1));}
-		else if (op==5) {printf("%d\n",get_kth(rt[v],get_rk(rt[v],x)-1));}
-		else {printf("%d\n",get_kth(rt[v],get_rk(rt[v],x+1)));}
-		if (op>2) {rt[m]=copy(rt[v]);}
-		//cout<<">>";for (int i=2;i<tr[rt[m]].siz;i++) {printf("%d ",get_kth(rt[m],i));}puts("");
-	}
+	
+	//do something . . .
+	
 	qwq 0;
 }
-```
